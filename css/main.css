@@ -401,6 +401,132 @@ li:hover {
         left: 0;
     }
 }
+/* Đề xuất */
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #ff5722;
+    border: 0.5rem solid #ff5722;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+    transition: 0.5s;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background: #ff5722;
+    color: #111;
+  }
+  
+.popular .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .popular .box-container .box {
+    padding: 2rem;
+    background: #222;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    text-align: center;
+    flex: 1 1 30rem;
+    position: relative;
+  }
+  
+  .popular .box-container .box img {
+    height: 25rem;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .popular .box-container .box .price {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    background: #ff5722;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .popular .box-container .box h3 {
+    color: #fff;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+  }
+  
+  .popular .box-container .box .stars i {
+    color: gold;
+    font-size: 1.7rem;
+    padding: 1rem 0.1rem;
+  }
+  .destination .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .destination .box-container .box {
+    border-radius: 1rem;
+    overflow: hidden;
+    background: #222;
+  }
+  
+  .destination .box-container .box:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .destination .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .destination .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .destination .box-container .box .content {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .destination .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .destination .box-container .box .content p {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+  }
+  
+  .destination .box-container .box .content a {
+    font-size: 1.7rem;
+    color: #ff5722;
+  }
+  
+  .destination .box-container .box .content a:hover i {
+    padding-left: 1rem;
+  }
+  
+  .destination .box-container .box .content a i {
+    padding-right: 0.5rem;
+  }
+  
 .heading {
     text-align: center;
     margin-bottom: 2rem;
@@ -412,12 +538,10 @@ li:hover {
     font-size: 4rem;
     color: #fff;
   }
-  
-.review span {
-    
+  .review span {   
     font-size: 4rem;
   }
-  
+
   .review h3 {
     color: #fff;
     font-size: 4rem;
