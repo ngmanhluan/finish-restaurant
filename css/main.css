@@ -4,6 +4,19 @@
     --coler-navbar: #222222;
 }
 
+html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: #111;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #ff5722;
+    border-radius: 5rem;
+  }
+  
 .logo img {
     width: 40px;
     margin-left: 20px;
