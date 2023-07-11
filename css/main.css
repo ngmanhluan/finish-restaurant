@@ -406,10 +406,7 @@ li:hover {
     margin-bottom: 2rem;
   }
   
-  .heading span {
-    color: #ff5722;
-    font-size: 2rem;
-  }
+  
   
   .heading h1 {
     font-size: 4rem;
@@ -417,8 +414,8 @@ li:hover {
   }
   
 .review span {
-    color: #ff5722;
-    font-size: 2rem;
+    
+    font-size: 4rem;
   }
   
   .review h3 {
