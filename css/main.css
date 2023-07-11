@@ -536,7 +536,7 @@ li:hover {
   
   .heading h1 {
     font-size: 4rem;
-    color: #fff;
+    color: #ff5722;
   }
   .review span {   
     font-size: 4rem;
@@ -592,70 +592,89 @@ li:hover {
     padding: 1rem 0;
   }
   
-/*** Footer ***/
-.footer .btn.btn-social {
-    margin-right: 5px;
-    width: 35px;
-    height: 35px;
+.banner {
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)),
+      url(../image/banner\ beefsteak.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 2rem;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  
+  .banner .content span {
+    font-size: 2rem;
+    color: #ff5722;
+  }
+  
+  .banner .content h3 {
+    font-size: 4rem;
+    color: #fff;
+    margin-top: 1rem;
+  }
+  .banner input {
+    width: 100%;
+    max-width: 40rem;
+    padding: 13px 12px;
+    border-radius: 25px;
+    text-align: center;
+  }
+  /* Footer */
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('/path/to/helvetica.ttf');
+  }
+  
+
+.foodter {
     display: flex;
-    align-items: center;
     justify-content: center;
-    color: var(--light);
-    border: 1px solid #FFFFFF;
-    border-radius: 35px;
-    transition: .3s;
+    flex-direction: column;
+    height: 250px;
+    background: var(--coler-navbar);
 }
 
-.footer .btn.btn-social:hover {
-    color: var(--primary);
+.foodter-sum {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
 }
 
-.footer .btn.btn-link {
-    display: block;
-    margin-bottom: 5px;
-    padding: 0;
-    text-align: left;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: normal;
-    text-transform: capitalize;
-    transition: .3s;
+.content-foodter {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
 }
 
-.footer .btn.btn-link::before {
-    position: relative;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 10px;
+.content-foodter>a {
+    color: #ababab !important;
+    padding: 5px 0;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-.footer .btn.btn-link:hover {
-    letter-spacing: 1px;
-    box-shadow: none;
+.content-foodter>a:hover {
+    color: white !important;
+    text-decoration: 1px underline !important;
 }
 
-.footer .copyright {
-    padding: 25px 0;
-    font-size: 15px;
-    border-top: 1px solid rgba(256, 256, 256, .1);
+.title-foodter {
+    font-size: 20px;
 }
 
-.footer .copyright a {
-    color: var(--light);
+.copyright {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff5722;
 }
 
-.footer .footer-menu a {
-    margin-right: 15px;
-    padding-right: 15px;
-    border-right: 1px solid rgba(255, 255, 255, .1);
+.fa-brands {
+    padding: 5px;
 }
 
-.footer .footer-menu a:last-child {
-    margin-right: 0;
-    padding-right: 0;
-    border-right: none;
+.content-copyright {
+    margin: 0;
+    color:  black;
 }
-
-
-
